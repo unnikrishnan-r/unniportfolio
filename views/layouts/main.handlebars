@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portfolio</title>
+    <title>Unnikrishnan's Portfolio</title>
 
     {{!-- Bootstrap CSS --}}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
@@ -41,6 +41,52 @@
 </head>
 
 <body>
+    {{!-- Header Info - Name, Contact info etc --}}
+    <div class="header pt-2" data-aos="fade-down" data-aos-duration="2000">
+        <div class="container-justify btns">
+            <div class="header-btn">
+                <a href="/" class="link-block"><button>Home</button></a>
+                <a href="/projects" class="link-block"><button>Projects</button></a>
+                {{!-- <a href="/contact" class="link-block"><button>Contact me</button></a> --}}
+            </div>
+            <div class="my-auto contact">
+                <a class="mx-2 text-white" style="font-family: 'Merriweather' " href="mailto:unnipbvr@gmail.com"
+                    target="_blank">unnipbvr@gmail.com</a>
+                <span class="mx-2 text-white">+1 210-616-1664</span>
+            </div>
+        </div>
+        <div class="row col-md-12">
+            <div class="jumbotron pb-1 text-center col-md-12" style="background-color: rgba(0,0,0,0)">
+                <div class="text-center head-prime text-white" style="font-family: 'Cardo'">
+                    <h1>
+                        <span>UNNIKRISHNAN RAMACHANDRAN</span>
+                    </h1>
+                </div>
+                <p class="text-center text-black" style="font-family: 'Merriweather',Regular Italic">MERN Stack |
+                    JavaScript
+                    | MAINFRAMES | Project Management | Agile Practicioner | Scrum Master | Retail | Supply Chain</p>
+                <hr class="bg-white w-25">
+                <div class="col-12 text-center" style="margin: 0 auto">
+                    <span class="m-2">
+                        <a href="https://www.linkedin.com/in/unnikrishnan-ramachandran/" target="_blank">
+                            <i class="fab fa-linkedin text-white display-4 social"></i>
+                        </a>
+                    </span>
+                    <span class="m-2">
+                        <a href="https://github.com/unnikrishnan-r" target="_blank">
+                            <i class="fab fa-github text-white display-4 social"></i>
+                        </a>
+                    </span>
+                    <span class="m-2">
+                        <a href="https://drive.google.com/file/d/1BQPq_zmIX0MGWE3AUA-qOu5hwu4aemlq/view?usp=sharing"
+                            target="_blank" download>
+                            <i class="fas fa-file-download text-white display-4 social"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
     {{{body}}}
 </body>
 
