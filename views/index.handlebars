@@ -39,13 +39,11 @@
                         <i class="fas fa-file-download text-white display-4 social"></i>
                     </a>
                 </span>
-
             </div>
         </div>
     </div>
 </div>
 
-<br>
 
 {{!-- Skillsets --}}
 <div class="container-fluid col-md-9 col-11 px-0" data-aos="fade-up" data-aos-duration="2000">
@@ -53,13 +51,15 @@
         <div class="row col-12">
             {{!-- Technical Skills --}}
             <div class="col-md text-center my-2" data-aos="fade-right" data-aos-duration="2000">
-                <span>
-                    <i class="fas fa-laptop-code display-1 text-warning"></i>
-                </span><br>
-                <span class="font-gugi lead text-warning">Technology SKILLS</span><br><br>
+                <span><i class="fas fa-laptop-code display-1 text-warning"></i></span><br><br>
                 <div class="text-dark">
-                    {{!-- HTML5, CSS3, JavaScript, jQuery, Bootstrap, React, MongoDB, MySql, Express, Node.js
-                    Mainframes, TIBCO, Restful APIs --}}
+                    <div class="col-12 btn-techskills ">
+                        <span class="font-gugi lead text-warning">Technology Skills
+                        <span class="btn btn-success ">+</span>
+                    </div>
+                </div>
+                </span><br><br>
+                <div class="col-12" id="open-techskills" style="display:none">
                     <ul class="list-skills text-dark">
                         <li>HTML5, CSS3, Bootstrap</li>
                         <li>JavaScript, jQuery</li>
@@ -71,15 +71,19 @@
                         <li>TIBCO</li>
 
                     </ul>
-
                 </div>
             </div>
             {{!-- Domain Skills --}}
             <div class="col-md text-center my-2" data-aos="fade-up" data-aos-duration="2000">
-                <span><i class="fas fa-briefcase display-1 text-primary"></i></span><br>
-                <span class="font-gugi lead text-primary">Domain Skills</span><br><br>
+                <span><i class="fas fa-briefcase display-1 text-primary"></i></span><br><br>
                 <div class="text-dark">
-                    {{!-- Retail, Supply Chain, Master Data Management, Data Analytics, Order Management --}}
+                    <div class="col-12 btn-domainskills">
+                        <span class="font-gugi lead text-primary">Domain Skills
+                        <span class="btn btn-success ">+</span>
+                    </div>
+                </div>
+                </span><br><br>
+                <div class="col-12" id="open-domainskills" style="display:none">
                     <ul class="list-skills text-dark">
                         <li>Retail</li>
                         <li>Supply Chain</li>
@@ -89,15 +93,19 @@
                         <li>Forecasting and Replenishment</li>
                         <li>Warehouse Operations</li>
                     </ul>
-
                 </div>
             </div>
-            {{!-- Soft Skills --}}
+            {{!-- Personal Skills --}}
             <div class="col-md text-center my-2" data-aos="fade-left" data-aos-duration="2000">
-                <span><i class="fas fa-people-carry display-1 text-danger"></i></span><br>
-                <span class="font-gugi lead text-danger">Soft Skills</span><br><br>
+                <span><i class="fas fa-people-carry display-1 text-danger"></i></span><br><br>
                 <div class="text-dark">
-                    {{!-- Adaptive, Effective Communicator, Mentor, Self-Learner, Team Player, Active Listener, Goal-focused, Problem Solve --}}
+                    <div class="col-12 btn-softskills">
+                        <span class="font-gugi lead text-danger">Soft Skills
+                        <span class="btn btn-success ">+</span>
+                    </div>
+                </div>
+                </span><br><br>
+                <div class="col-12" id="open-softskills" style="display:none">
                     <ul class="list-skills text-dark">
                         <li>Adaptive</li>
                         <li>Effective Communicator</li>
@@ -113,7 +121,6 @@
         </div>
     </div>
 </div>
-<br>
 
 {{!-- ABOUT ME --}}
 <div class="container-fluid col-md-9 col-11 px-0" data-aos="fade-up" data-aos-duration="2000">
@@ -139,7 +146,8 @@
                     </li>
                     <li>
                         Currently executing a multi year, multi million dollar Digital Modernization initiative,
-                        transforming legacy applications/data out of Retailer's legacy platform and aiming to reduce TCO by $12 million
+                        transforming legacy applications/data out of Retailer's legacy platform and aiming to reduce TCO
+                        by $12 million
                     </li>
                     <li>Designed and implemented a solution via EDI to provide visibility of DSD purchase order
                         fulfillment and out of stocks in Store Replenishment System, reducing lost sales by $2.8 million
@@ -153,7 +161,8 @@
                         Self upgraded technical skills as Full Stack Developer
                     </li>
                     <li>
-                        Core Competency in Mainframe Technologies, also well versed with Integration technologies like TIBCO
+                        Core Competency in Mainframe Technologies, also well versed with Integration technologies like
+                        TIBCO
                     </li>
                     <li>
                         Strong leadership and interpersonal skills. Effectively mentored many team members
@@ -246,6 +255,16 @@
     <a href="/" class="link-block"><span class="lead footer"></span></a>
 </div>
 <script type="text/javascript">
+    $(".btn-techskills").on("click", function () {
+        $("#open-techskills").slideToggle();
+    });
+    $(".btn-domainskills").on("click", function () {
+        $("#open-domainskills").slideToggle();
+    });
+    $(".btn-softskills").on("click", function () {
+        $("#open-softskills").slideToggle();
+    });
+
     $(".btn-aboutme").on("click", function () {
         $("#open-aboutme").slideToggle();
     });
