@@ -5,99 +5,29 @@
         <hr class="text-center bg-dark w-75">
     </div>
     <div class="row col-12 m-0 p-0">
+        {{#each project}}
         {{!-- ROBINHOOD --}}
         <div class="col-md-4 col-6 p-0" data-aos="fade-up" data-aos-duration="2000">
-            <a href="https://limitless-bayou-30453.herokuapp.com/" target="_blank" class="link-block project">
+            <a href="{{projectUrl}}" target="_blank" class="link-block project">
                 <div class="m-2 border project-shadow">
                     <div>
-                        <h3 class="font-gugi lead text-center p-2 m-0 bg-gradient text-light">ROBINHOOD</h3>
+                        <h3 class="font-gugi lead text-center p-2 m-0 bg-gradient text-light">{{projectName}}</h3>
                     </div>
                     <div>
-                        <img src="image/robinhood.png" class="img-fluid">
+                        <img src={{projectImageUrl}} class="img-fluid">
                     </div>
                     <div class="text-center p-md-3 py-3">
-                        <p class="small px-3">Bootcamp Team Project - Marketplace application for streamlining food
-                            donations</p>
-                        <a href="https://limitless-bayou-30453.herokuapp.com/" target="_blank"
-                            class="link-block-black small"><button
+                        <p class="small px-3">{{projectDescription}}</p>
+                        <a href={{projectUrl}} target="_blank" class="link-block-black small"><button
                                 class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Open Project</button></a>
-                        <a href="https://github.com/unnikrishnan-r/food-bank" target="_blank"
-                            class="link-block-black small"><button
+                        <a href="{{projectRepo}}" target="_blank" class="link-block-black small"><button
                                 class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Github</button></a>
                     </div>
                 </div>
             </a>
         </div>
-        {{!-- TRAVEL PLANNER --}}
-        <div class="col-md-4 col-6 p-0" data-aos="fade-down" data-aos-duration="2000">
-            <a href="https://unnikrishnan-r.github.io/Travel-Planner/" target="_blank" class="link-block project">
-                <div class="m-2 border project-shadow">
-                    <div>
-                        <h3 class="font-gugi lead text-center p-2 m-0 bg-gradient text-light">TRAVEL PLANNER</h3>
-                    </div>
-                    <div>
-                        <img src="image/travelplanner.png" class="img-fluid">
-                    </div>
-                    <div class="text-center p-md-3 py-3">
-                        <p class="small px-3">Bootcamp Team Project - Travel Planner application</p>
-                        <a href="https://unnikrishnan-r.github.io/Travel-Planner/" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Open Project</button></a>
-                        <a href="https://github.com/unnikrishnan-r/Travel-Planner" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Github</button></a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {{!-- BAMAZON --}}
-        <div class="col-md-4 col-6 p-0" data-aos="fade-down" data-aos-duration="2000">
-            <a href="https://github.com/unnikrishnan-r/Bamazon" target="_blank" class="link-block project">
-                <div class="m-2 border project-shadow">
-                    <div>
-                        <h3 class="font-gugi lead text-center p-2 m-0 bg-gradient text-light">BAMAZON</h3>
-                    </div>
-                    <div>
-                        <img src="image/bamazon.png" class="img-fluid">
-                    </div>
-                    <div class="text-center p-md-3 py-3">
-                        <p class="small px-3">CLI version of an eCommerce website. Capable of handling multiple
-                            stakeholders
-                        </p>
-                        <a href="https://github.com/unnikrishnan-r/Bamazon/blob/master/bamazon_demo.gif" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Open Demo</button></a>
-                        <a href="https://github.com/unnikrishnan-r/Bamazon" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Github</button></a>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {{!-- BAMAZON --}}
-        <div class="col-md-4 col-6 p-0" data-aos="fade-down" data-aos-duration="2000">
-            <a href="https://github.com/unnikrishnan-r/Bamazon" target="_blank" class="link-block project">
-                <div class="m-2 border project-shadow">
-                    <div>
-                        <h3 class="font-gugi lead text-center p-2 m-0 bg-gradient text-light">BAMAZON</h3>
-                    </div>
-                    <div>
-                        <img src="image/bamazon.png" class="img-fluid">
-                    </div>
-                    <div class="text-center p-md-3 py-3">
-                        <p class="small px-3">CLI version of an eCommerce website. Capable of handling multiple
-                            stakeholders
-                        </p>
-                        <a href="https://github.com/unnikrishnan-r/Bamazon/blob/master/bamazon_demo.gif" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Open Demo</button></a>
-                        <a href="https://github.com/unnikrishnan-r/Bamazon" target="_blank"
-                            class="link-block-black small"><button
-                                class="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">Github</button></a>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {{/each}}
+
     </div>
 
 </div>
