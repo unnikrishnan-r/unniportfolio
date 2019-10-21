@@ -23,21 +23,25 @@ app.set("view engine", "handlebars");
 
 // Routes
 require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app); 
+require("./routes/htmlRoutes")(app);
 
 console.clear();
 var syncOptions = {};
 syncOptions.force = process.env.SYNC_MODEL === "true" ? true : false;
+console.log(process.env);
 
-// Starting the server, syncing our models ------------------------------------/
-db.sequelizeConnection.sync(syncOptions).then(function () {
-  app.listen(PORT, function () {
-    console.log(
-      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-      PORT,
-      PORT
-    );
-  });
+// Starting the server,
+app.listen(PORT, function() {
+  console.log(
+    "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
+    PORT,
+    PORT
+  );
+
+  // syncing our models ------------------------------------/
+  // db.sequelizeConnection.sync(syncOptions).then(function() {
+  //   console.log("DB connected");
+  // });
 });
 
 module.exports = app;

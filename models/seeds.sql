@@ -33,7 +33,7 @@ now(),now()
 "Node based CLI Personal Assistant",
 now(),now()
 ),
-("Rock Paper Scissors!","https://unnikrishnan-r.github.io/RPS-Online-Game/game.html",
+("Rock Paper Scissors!","https://unnikrishnan-r.github.io/RPS-Online-Game/",
 "https://github.com/unnikrishnan-r/RPS-Online-Game",
 "https://i.imgur.com/eHGy0sF.jpg",
 "jQuery based Online RPS game, using Firebase",
