@@ -1,4 +1,6 @@
 require("dotenv").config();
+require('env-yaml').config({ path: './.env.yaml' });
+
 var express = require("express");
 var exphbs = require("express-handlebars");
 var db = require("./models");

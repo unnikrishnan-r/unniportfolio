@@ -30,12 +30,13 @@ now(),now()
 "LIRI - Personal Assistant","https://github.com/unnikrishnan-r/LIRI-Node-App/blob/master/demo.gif",
 "https://github.com/unnikrishnan-r/LIRI-Node-App",
 "https://i.imgur.com/qR2DRfA.jpg",
+"https://i.imgur.com/DzRi2KA.jpg",
 "Node based CLI Personal Assistant",
 now(),now()
 ),
 ("Rock Paper Scissors!","https://unnikrishnan-r.github.io/RPS-Online-Game/",
 "https://github.com/unnikrishnan-r/RPS-Online-Game",
-"https://i.imgur.com/eHGy0sF.jpg",
+"https://i.imgur.com/2sVIKfj.jpg",
 "jQuery based Online RPS game, using Firebase",
 now(),now()
 )
