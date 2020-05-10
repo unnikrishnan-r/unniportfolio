@@ -44,14 +44,19 @@ export default class index extends Component {
             </span>
           </div>
         </div>
-        <div className="col-12" id="open-aboutme" ref="open-aboutme" style={{ display: "none" }}>
+        <div
+          className="col-12"
+          id="open-aboutme"
+          ref="open-aboutme"
+          style={{ display: "none" }}
+        >
           <ul
             className="list-skills text-dark"
-            style={
-              ({ fontWeight: "200" },
-              { textAlign: "left" },
-              { fontSize: "1.1rem" })
-            }
+            style={{
+              fontWeight: "200",
+              textAlign: "left",
+              fontSize: "1.1rem",
+            }}
           >
             <li>
               <a href="https://bcert.me/bc/html/show-badge.html?b=hefndbsi">
