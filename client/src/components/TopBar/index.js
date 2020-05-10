@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import AOS from "aos";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class index extends Component {
   componentDidMount() {
@@ -57,7 +59,7 @@ export default class index extends Component {
               MERN Stack | JavaScript | MAINFRAMES | Project Management | Agile
               Practicioner | Scrum Master | Retail | Supply Chain
             </p>
-            <hr className="bg-white w-25"/>
+            <hr className="bg-white w-25" />
             <div className="col-12 text-center" style={{ margin: "0 auto" }}>
               <span className="m-2">
                 <a
@@ -78,7 +80,11 @@ export default class index extends Component {
                   target="_blank"
                   download
                 >
-                  <i className="fas fa-file-download text-white display-4 social"></i>
+                  {/* <i className="fas fa-file-download text-white display-4 social"></i> */}
+                  <FontAwesomeIcon
+                    icon={faFileDownload}
+                    className="fas fa-file-download text-white display-4 social"
+                  />
                 </a>
               </span>
             </div>
