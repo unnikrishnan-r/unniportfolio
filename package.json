@@ -2,11 +2,17 @@
   "name": "unniportfolio",
   "version": "1.0.0",
   "description": "Repository for personal portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "lint-staged",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node server/helpers/dbload.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,10 +30,14 @@
     "dotenv": "^8.2.0",
     "env-yaml": "^0.1.2",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
+    "if-env": "^1.0.4",
     "mysql2": "^2.1.0",
-    "nodemon": "^2.0.3",
     "npm-check": "^5.9.2",
+    "react": "^16.13.1",
     "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
   }
 }
