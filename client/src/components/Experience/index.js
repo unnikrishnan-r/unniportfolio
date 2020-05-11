@@ -10,7 +10,6 @@ export default class index extends Component {
   }
 
   _toggleDiv = (id) => {
-    console.log("Got Clicked", id);
     $(this.refs[`open-experience${id}`]).slideToggle();
   };
 
@@ -24,54 +23,52 @@ export default class index extends Component {
 
   render() {
     return (
-      <div>
+      <div data-aos="fade-up" data-aos-duration="2000">
         {experience.map((exp, index) => {
-          {
-            return (
-              <div key={index}>
-                <div className="col-12 flex btn-experience1 py-3  education-field">
-                  <div>
-                    <span className="badge-lg badge-primary p-1 my-auto">
-                      {exp.experiencePeriod}{" "}
-                    </span>
-                    <span className="font-weight-bold lead mx-2 mobile-edu-container">
-                      {exp.experienceTitle}
-                    </span>
-                    <div className="p-2">
-                      <i>{exp.experienceLocation}</i>
-                    </div>
-                  </div>
-                  <div>
-                    <span
-                      onClick={(event) => this._toggleDiv(exp.id)}
-                      className="btn btn-primary "
-                    >
-                      +
-                    </span>
+          return (
+            <div key={index}>
+              <div className="col-12 flex btn-experience1 py-3  education-field">
+                <div>
+                  <span className="badge-lg badge-primary p-1 my-auto">
+                    {exp.experiencePeriod}{" "}
+                  </span>
+                  <span className="font-weight-bold lead mx-2 mobile-edu-container">
+                    {exp.experienceTitle}
+                  </span>
+                  <div className="p-2">
+                    <i>{exp.experienceLocation}</i>
                   </div>
                 </div>
-                <div
-                  className="col-12"
-                  id="open-experience1"
-                  ref={`open-experience${exp.id}`}
-                  style={{ display: "none" }}
-                >
-                  <ul
-                    className="list-skills text-dark"
-                    style={{
-                      fontWeight: "200",
-                      textAlign: "left",
-                      fontSize: "1.1rem",
-                    }}
+                <div>
+                  <span
+                    onClick={(event) => this._toggleDiv(exp.id)}
+                    className="btn btn-primary "
                   >
-                    {exp.highlights.map((item, index1) => {
-                      return <li key={index1}>{item}</li>;
-                    })}
-                  </ul>
+                    +
+                  </span>
                 </div>
               </div>
-            );
-          }
+              <div
+                className="col-12"
+                id="open-experience1"
+                ref={`open-experience${exp.id}`}
+                style={{ display: "none" }}
+              >
+                <ul
+                  className="list-skills text-dark"
+                  style={{
+                    fontWeight: "200",
+                    textAlign: "left",
+                    fontSize: "1.1rem",
+                  }}
+                >
+                  {exp.highlights.map((item, index1) => {
+                    return <li key={index1}>{item}</li>;
+                  })}
+                </ul>
+              </div>
+            </div>
+          );
         })}
       </div>
     );

@@ -32,6 +32,7 @@ export default class index extends Component {
               className="mx-2 text-white"
               href="mailto:unnipbvr@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               unnipbvr@gmail.com
             </a>
@@ -65,12 +66,17 @@ export default class index extends Component {
                 <a
                   href="https://www.linkedin.com/in/unnikrishnan-ramachandran/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-linkedin text-white display-4 social"></i>
                 </a>
               </span>
               <span className="m-2">
-                <a href="https://github.com/unnikrishnan-r" target="_blank">
+                <a
+                  href="https://github.com/unnikrishnan-r"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fab fa-github text-white display-4 social"></i>
                 </a>
               </span>
@@ -78,6 +84,7 @@ export default class index extends Component {
                 <a
                   href="https://drive.google.com/file/d/1BQPq_zmIX0MGWE3AUA-qOu5hwu4aemlq/view?usp=sharing"
                   target="_blank"
+                  rel="noopener noreferrer"
                   download
                 >
                   {/* <i className="fas fa-file-download text-white display-4 social"></i> */}

@@ -30,58 +30,56 @@ export default class index extends Component {
     return (
       <div className="row col-12">
         {skills.map((skill) => {
-          {
-            return (
-              <div
-                className="col-md text-center my-2"
-                data-aos={skill.fadeDirection}
-                data-aos-duration="2000"
-                key={skill.id}
-              >
-                <span>
-                  <FontAwesomeIcon
-                    icon={
-                      (skill.skillIcon === "faLaptopCode"
-                        ? faLaptopCode
-                        : (skill.skillIcon === "faBriefcase"
-                            ? faBriefcase
-                            : faPeopleCarry))
-                    }
-                    className={`display-1 ${skill.skillFontColor}`}
-                  />
-                </span>
-                <br /> <br />
-                <div className="text-dark">
-                  <div className={`col-12 btn-${skill.skillClass} `}>
-                    <span className={`font-gugi lead ${skill.skillFontColor} `}>
-                      {skill.skillName}
-                      <span
-                        onClick={(event) => this._toggleDiv(skill.skillClass)}
-                        value={skill.skillClass}
-                        className="btn btn-success "
-                      >
-                        +
-                      </span>
+          return (
+            <div
+              className="col-md text-center my-2"
+              data-aos={skill.fadeDirection}
+              data-aos-duration="2000"
+              key={skill.id}
+            >
+              <span>
+                <FontAwesomeIcon
+                  icon={
+                    skill.skillIcon === "faLaptopCode"
+                      ? faLaptopCode
+                      : skill.skillIcon === "faBriefcase"
+                      ? faBriefcase
+                      : faPeopleCarry
+                  }
+                  className={`display-1 ${skill.skillFontColor}`}
+                />
+              </span>
+              <br /> <br />
+              <div className="text-dark">
+                <div className={`col-12 btn-${skill.skillClass} `}>
+                  <span className={`font-gugi lead ${skill.skillFontColor} `}>
+                    {skill.skillName}
+                    <span
+                      onClick={(event) => this._toggleDiv(skill.skillClass)}
+                      value={skill.skillClass}
+                      className="btn btn-success "
+                    >
+                      +
                     </span>
-                  </div>
-                </div>
-                <span />
-                <br />
-                <div
-                  className="col-12"
-                  id={`open${skill.skillClass}`}
-                  style={{ display: "none" }}
-                  ref={`open${skill.skillClass}`}
-                >
-                  <ul className="list-skills text-dark">
-                    {skill.skillList.map((skillItem) => {
-                      return <li key={skillItem}>{skillItem}</li>;
-                    })}
-                  </ul>
+                  </span>
                 </div>
               </div>
-            );
-          }
+              <span />
+              <br />
+              <div
+                className="col-12"
+                id={`open${skill.skillClass}`}
+                style={{ display: "none" }}
+                ref={`open${skill.skillClass}`}
+              >
+                <ul className="list-skills text-dark">
+                  {skill.skillList.map((skillItem) => {
+                    return <li key={skillItem}>{skillItem}</li>;
+                  })}
+                </ul>
+              </div>
+            </div>
+          );
         })}
       </div>
     );
