@@ -1,13 +1,8 @@
 import React, { Component } from "react";
 import AOS from "aos";
-import $ from "jquery";
 import API from "../../utils/API";
 
 export default class index extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   state = {
     projects: [],
   };
@@ -36,10 +31,12 @@ export default class index extends Component {
               className="col-md-4 col-6 p-0"
               data-aos="fade-up"
               data-aos-duration="2000"
+              key={project.id}
             >
               <a
                 href={project.projectUrl}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="link-block project"
               >
                 <div className="m-2 border project-shadow">
@@ -49,22 +46,28 @@ export default class index extends Component {
                     </h3>
                   </div>
                   <div>
-                    <img src={project.projectImageUrl} className="img-fluid" />
+                    <img
+                      src={project.projectImageUrl}
+                      className="img-fluid"
+                      alt={project.projectDescription}
+                    />
                   </div>
                   <div className="text-center p-md-3 py-3">
                     <p className="small px-3">{project.projectDescription}</p>
                     <a
                       href={project.projectUrl}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="link-block-black small"
                     >
-                      <button className="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">
+                      <button className="btn btn-sm btn-outline-dark my-1 mr-1 p-1 link-block-black">
                         Open Project
                       </button>
                     </a>
                     <a
                       href={project.projectRepo}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="link-block-black small"
                     >
                       <button className="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">
