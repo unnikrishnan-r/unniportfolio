@@ -1,0 +1,33 @@
+
+    [
+       {"id": 1,
+         "eduPeriod": "May 2019 - November 2019",
+         "eduTitle": "Full Stack Development",
+         "eduInstitution": "University of Toronto ",
+         "eduSubText": "Details Here",
+         "eduSubTextUrl": "https://bootcamp.learn.utoronto.ca/coding/",
+         "eduDetails":[
+            "Browser Based Technologies (HTML, CSS, JavaScript, jQuery, Bootstrap)",
+            "Server Side Development (Node.js, Express, MERN Stack)",
+            "Databases (MySQL, MongoDB) and ORMs like Sequelize and Mongoose"
+         ]
+      },
+      {"id": 2,
+         "eduPeriod": "August 2019",
+         "eduTitle": "Data & AI Hackathon - Participant",
+         "eduInstitution": "Microsoft OCP - Data & AI Hackathon ",
+         "eduSubTextUrl": "https://www.youracclaim.com/badges/8ac04f31-4db6-4f69-a9c1-13f7d36b5de2/linked_in_profile"
+      },
+      {"id": 3,
+         "eduPeriod": "December 2019",
+         "eduTitle": "Certified ScrumMaster® (CSM®)",
+         "eduInstitution": "Scrum Alliance ",
+         "eduSubTextUrl": "https://bcert.me/bc/html/show-badge.html?b=hefndbsi"
+      },
+      {"id": 4,
+         "eduPeriod": "May 2002 - May 2006",
+         "eduTitle": "Bachelor Of Technology in Electronics and Communication",
+         "eduInstitution": "Vimal Jyothi Engineering College, Kannur University, India ",
+         "eduSubTextUrl": "http://vjec.ac.in/"
+      }
+    ]
