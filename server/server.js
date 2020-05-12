@@ -4,9 +4,9 @@ var express = require("express");
 
 
 
-var db = require("./server/database/models");
+var db = require("./database/models");
 
-const routes = require("./server/routes");
+const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
