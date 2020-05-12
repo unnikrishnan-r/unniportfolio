@@ -15,7 +15,7 @@ function App() {
         <Switch>
           {/* To render a component depending on the URL exact path hit in the browser*/}
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/api/projects" component={ProjectsPage} />
+          <Route exact path="/projects" component={ProjectsPage} />
 
         </Switch>
       </div>

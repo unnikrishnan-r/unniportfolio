@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link } from "react-router-dom";
 import AOS from "aos";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,12 +21,12 @@ export default class index extends Component {
       >
         <div className="container-justify btns">
           <div className="header-btn">
-            <a href="/" className="link-block">
+            <Link to="/">
               <button>Home</button>
-            </a>
-            <a href="/api/projects" className="link-block">
+            </Link>
+            <Link to="/projects">
               <button>Projects</button>
-            </a>
+            </Link>
           </div>
           <div className="my-auto contact">
             <a
