@@ -12,6 +12,7 @@
     "seed": "node server/helpers/dbload.js",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
+    "test": "jest",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
@@ -33,11 +34,11 @@
     "if-env": "^1.0.4",
     "mysql2": "^2.1.0",
     "npm-check": "^5.9.2",
-    "react": "^16.13.1",
     "sequelize": "^5.21.7"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
     "nodemon": "^2.0.3"
   }
 }
