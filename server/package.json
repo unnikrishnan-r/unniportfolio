@@ -8,10 +8,14 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
+    "client": "cd ../client && npm run start",
     "seed": "node server/helpers/dbload.js",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
+    "install": "cd ../client && npm install",
+    "build": "cd ../client && npm run build",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage=true",
+    "pretest": "cross-env NODE_ENV=test npm run migrate:reset",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
@@ -31,13 +35,16 @@
     "env-yaml": "^0.1.2",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
+    "jest": "^26.0.1",
     "mysql2": "^2.1.0",
     "npm-check": "^5.9.2",
-    "react": "^16.13.1",
     "sequelize": "^5.21.7"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.3"
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
   }
 }

@@ -9,6 +9,13 @@
     "production": {
       "use_env_variable": "JAWSDB_URL",
       "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": "password",
+      "database": "portfolio_test",
+      "host": "localhost",
+      "dialect": "mysql"
     }
   }
   
