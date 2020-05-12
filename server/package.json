@@ -12,7 +12,10 @@
     "seed": "node server/helpers/dbload.js",
     "install": "cd ../client && npm install",
     "build": "cd ../client && npm run build",
-    "test": "jest",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000 --coverage=true",
+    "pretest": "cross-env NODE_ENV=test npm run migrate:reset",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
@@ -40,6 +43,8 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "cross-env": "^7.0.2",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
   }
 }
