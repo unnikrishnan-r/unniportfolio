@@ -4,7 +4,7 @@ var express = require("express");
 
 
 
-var db = require("./server/models");
+var db = require("./server/database/models");
 
 const routes = require("./server/routes");
 const app = express();
