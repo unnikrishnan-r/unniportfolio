@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "skillType": "domain",
+    "skillName": "Technical Skills",
+    "skillIcon": "faLaptopCode",
+    "fadeDirection": "fade-right",
+    "skillFontColor": "text-warning",
+    "skillClass": "techskills",
+    "skillList": [
+      "HTML5, CSS3, Bootstrap",
+      "JavaScript, jQuery",
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDb,MySQL, Oracle, DB2",
+      "Mainframes",
+      "TIBCO"
+    ]
+  },
+  {
+    "id": 2,
+    "skillType": "domain",
+    "skillName": "Domain Skills",
+    "skillIcon": "faBriefcase",
+    "fadeDirection": "fade-up",
+    "skillFontColor": "text-primary",
+    "skillClass": "domainskills",
+    "skillList": [
+      "Retail",
+      "Supply Chain",
+      "Master Data Management",
+      "Data Analytics",
+      "Order Management",
+      "Forecasting and Replenishment",
+      "Warehouse Operations"
+    ]
+  },
+  {
+    "id": 3,
+    "skillType": "domain",
+    "skillName": "Soft Skills",
+    "skillIcon": "faPeopleCarry",
+    "fadeDirection": "fade-left",
+    "skillFontColor": "text-danger",
+    "skillClass": "softskills",
+    "skillList": [
+      "Adaptive",
+      "Effective Communciator",
+      "Mentor",
+      "Self Learner",
+      "Team Player",
+      "Active Listener",
+      "Goal Focused",
+      "Problem Solver"
+    ]
+  }
+]
