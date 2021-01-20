@@ -5,14 +5,14 @@
          "eduTitle": "AWS Certified Cloud Practitioner",
          "eduInstitution": "Amazon Web Services ",
          "eduSubText": "Details Here",
-         "eduSubTextUrl": "https://bootcamp.learn.utoronto.ca/coding/"
+         "eduSubTextUrl": "https://www.youracclaim.com/badges/b83161b0-69ee-49ab-a80f-c340d029ac54/linked_in"
       },
        {"id": 2,
          "eduPeriod": "May 2019 - November 2019",
          "eduTitle": "Full Stack Development",
          "eduInstitution": "University of Toronto ",
          "eduSubText": "Details Here",
-         "eduSubTextUrl": "https://www.youracclaim.com/badges/b83161b0-69ee-49ab-a80f-c340d029ac54/linked_in",
+         "eduSubTextUrl": "https://bootcamp.learn.utoronto.ca/coding/",
          "eduDetails":[
             "Browser Based Technologies (HTML, CSS, JavaScript, jQuery, Bootstrap)",
             "Server Side Development (Node.js, Express, MERN Stack)",
