@@ -83,7 +83,7 @@ export default class index extends Component {
               </span>
               <span className="m-2">
                 <a
-                  href="https://drive.google.com/file/d/1BQPq_zmIX0MGWE3AUA-qOu5hwu4aemlq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/10X5q7VjT2GI7Wh-OnGytJB1hD1LYEW2j/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   download

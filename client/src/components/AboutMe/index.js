@@ -26,7 +26,7 @@ export default class index extends Component {
           <div>
             <span className="lead mx-2 mobile-edu-container">
               Technical Project Manager with over 13 years of diverse global
-              experience as a Project manager, Business analyst, Full Stack Web
+              experience as a Program Manager, Project manager, Business analyst, Full Stack Web
               developer and Mainframe solution architect, paired with a strong
               educational background and drive for continuous learning. Skilled
               in working with virtual teams for end to end execution of
