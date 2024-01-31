@@ -37,7 +37,7 @@ export default class index extends Component {
             >
               unnipbvr@gmail.com
             </a>
-            <span className="mx-2 text-white">+1 210-616-1664</span>
+            <span className="mx-2 text-white">+1 647-939-1664</span>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export default class index extends Component {
               MERN Stack | JavaScript | MAINFRAMES | Project Management | Agile
               Practicioner | Scrum Master | Retail | Supply Chain
             </p>
-            <hr className="bg-white w-25" />
+            {/* <hr className="bg-blue w-25" /> */}
             <div className="col-12 text-center" style={{ margin: "0 auto" }}>
               <span className="m-2">
                 <a

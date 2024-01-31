@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
-import "./style.css"
+import { withRouter } from "../utils/withRouterHOC";
+import "./style.css";
 
 import TopBar from "../components/TopBar";
 import Skills from "../components/Skills";
@@ -49,4 +49,4 @@ class MainPage extends Component {
   }
 }
 
-export default withRouter(MainPage);
+export default MainPage;
