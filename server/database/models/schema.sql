@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS portfolio;
-CREATE DATABASE portfolio;
+DROP DATABASE IF EXISTS sandraportfolio;
+CREATE DATABASE sandraportfolio;
 
-USE portfolio;
+USE sandraportfolio;

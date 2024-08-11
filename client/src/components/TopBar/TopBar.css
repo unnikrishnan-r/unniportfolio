@@ -1,0 +1,13 @@
+.image {
+    text-align: left;
+    max-width: 75%;
+    height: auto;
+    background-size: contain;
+
+  }
+
+  .child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }

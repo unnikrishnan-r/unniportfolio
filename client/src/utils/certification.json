@@ -1,0 +1,9 @@
+[
+  { "id": 1, "eduTitle": "Certified in Standard First Aid and CPR Level C" },
+  {
+    "id": 2,
+    "eduTitle": "Accessibility for Ontarians with Disabilities Act (AODA) Training"
+  },
+  { "id": 3, "eduTitle": "Anaphylaxis in Child Care Setting" },
+  { "id": 4, "eduTitle": "Diversity, Self-awareness, and Action" }
+]

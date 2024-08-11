@@ -14,7 +14,7 @@ class ProjectsPage extends Component {
         <TopBar />
         <br />
         <div className="container-fluid col-md-9 col-11 px-0">
-          <SectionTitle sectionName="P R O J E C TS"></SectionTitle>
+          <SectionTitle sectionName="A C T I V I T Y P L A N S"></SectionTitle>
           <Projects></Projects>
         </div>
         <br />

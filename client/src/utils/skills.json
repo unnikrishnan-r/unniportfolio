@@ -1,24 +1,5 @@
 [
   {
-    "id": 1,
-    "skillType": "domain",
-    "skillName": "Technical Skills",
-    "skillIcon": "faLaptopCode",
-    "fadeDirection": "fade-right",
-    "skillFontColor": "text-warning",
-    "skillClass": "techskills",
-    "skillList": [
-      "HTML5, CSS3, Bootstrap",
-      "JavaScript, jQuery",
-      "Node.js",
-      "Express.js",
-      "React.js",
-      "MongoDb,MySQL, Oracle, DB2",
-      "Mainframes",
-      "TIBCO"
-    ]
-  },
-  {
     "id": 2,
     "skillType": "domain",
     "skillName": "Domain Skills",
@@ -27,13 +8,11 @@
     "skillFontColor": "text-primary",
     "skillClass": "domainskills",
     "skillList": [
-      "Retail",
-      "Supply Chain",
-      "Master Data Management",
-      "Data Analytics",
-      "Order Management",
-      "Forecasting and Replenishment",
-      "Warehouse Operations"
+      "Early Childhood Development",
+      "Child-Centered Learning",
+      "Child Safety & Welfare",
+      "Inclusive Education",
+      "Developmental Milestones Assessment"
     ]
   },
   {

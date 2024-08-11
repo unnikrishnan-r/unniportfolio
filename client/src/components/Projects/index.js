@@ -41,7 +41,7 @@ export default class index extends Component {
               >
                 <div className="m-2 border project-shadow">
                   <div>
-                    <h3 className="font-gugi lead text-center p-2 m-0 bg-gradient text-light">
+                    <h3 className="font-gugi lead text-center p-2 m-0 bg-gradient text-bold">
                       {project.projectName}
                     </h3>
                   </div>
@@ -49,7 +49,6 @@ export default class index extends Component {
                     <img
                       src={project.projectImageUrl}
                       className="img-fluid"
-                      alt={project.projectDescription}
                     />
                   </div>
                   <div className="text-center p-md-3 py-3">
@@ -61,19 +60,10 @@ export default class index extends Component {
                       className="link-block-black small"
                     >
                       <button className="btn btn-sm btn-outline-dark my-1 mr-1 p-1 link-block-black">
-                        Open Project
+                        Download Activity Plan
                       </button>
                     </a>
-                    <a
-                      href={project.projectRepo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="link-block-black small"
-                    >
-                      <button className="btn btn-sm btn-outline-dark my-1 p-1 link-block-black">
-                        Github
-                      </button>
-                    </a>
+
                   </div>
                 </div>
               </a>
