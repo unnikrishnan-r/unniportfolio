@@ -2,7 +2,7 @@
     "development": {
       "username": "root",
       "password": "password",
-      "database": "sandraportfolio",
+      "database": "portfolio",
       "host": "localhost",
       "dialect": "mysql"
     },

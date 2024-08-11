@@ -3,23 +3,23 @@
 module.exports = function (sequelize, DataTypes) {
     var Projects = sequelize.define("Projects", {
       projectName: {
-        type: DataTypes.STRING(150),
+        type: DataTypes.STRING(50),
         allowNull: false
       },
       projectUrl: {
         type: DataTypes.STRING(255),
-        allowNull: true
+        allowNull: false
       },
       projectRepo: {
         type: DataTypes.STRING(255),
-        allowNull: true
+        allowNull: false
       },
       projectImageUrl: {
         type: DataTypes.STRING(255),
-        allowNull: true
+        allowNull: false
       },
       projectDescription: {
-        type: DataTypes.STRING(500),
+        type: DataTypes.STRING(255),
         allowNull: false
       }
     }, {

@@ -1,43 +1,47 @@
 [
   {
     "id": 1,
-    "experiencePeriod": "June 2022 - Present",
-    "experienceTitle": "Early Childhood Educator (Director Approved)",
-    "experienceLocation": "Kidsfirst Childcare Centre, Oshawa",
+    "experiencePeriod": "March 2016 - Present",
+    "experienceTitle": "Manager - Projects",
+    "experienceLocation": "Cognizant Technology Solutions:- San Antonio, Texas, Mississauga, Canada",
     "highlights": [
-      "Facilitated engaging and age-appropriate learning activities for children aged 2-4 years, promoting physical, social, emotional, and cognitive development.",
-      "Developed and implemented daily lesson plans, tailored to individual needs and interests, fostering a positive and inclusive learning environment.",
-      "Observed and assessed children's progress, identifying areas for improvement and providing support and encouragement.",
-      "Experienced in providing care to children with different abilities",
-      "Created and maintained a safe and clean classroom, adhering to health and safety regulations and guidelines.",
-      "Participated in staff meetings and professional development workshops to stay abreast of best practices and advancements in early childhood education.",
-      "Collaborated with parents and caregivers, maintaining open lines of communication to ensure consistent care and alignment between home and school environments.",
-      "Managed digital communication using HiMama app"
+      "Leading customer's Legacy Development Center portfolio, with the goal to serve the business functional enhancement needs for various LOBs. Working very closely with business and IT stakeholders of the customer organization.",
+      "Evaluating current business processes, procedures and work practices and proposing overarching solutions to complex problems",
+      "Participate in enterprise architecture workshops and assessments to prepare long term vision statement of the client IT organization"
     ]
-  },
+    },
   {
     "id": 2,
-    "experiencePeriod": "April 2022 - June 2022",
-    "experienceTitle": "Early Childhood Assistant",
-    "experienceLocation": "Tiny Hoppers Daycare, Oshawa",
+    "experiencePeriod": "April 2011 - March 2016",
+    "experienceTitle": "Senior Associate - Projects",
+    "experienceLocation": "Cognizant Technology Solutions:- San Antonio, Texas",
     "highlights": [
-      "Planned and implemented a consistent child-centered program.",
-      "Participated in and applied learnings from research to children's learning",
-      "Completed required documentation of children's development and interaction digitally",
-      "Experience in providing care to children with developmental issues",
-      "Established positive and productive relationships with families.",
-      "Managed digital communication using Sandbox app"
+      "Lead the Cognizant team working in customer's Integration Competency Center division. This was a multi-technology team involving mainframe and TIBCO.",
+      "Garnered $4M savings by avoiding a Mainframe CPU upgrade; fine-tuned the usage of CPU cycles by TIBCO integrations",
+      "Designed and implemented a near real time application that feeds master data, retail and cost changes to downstream systems (eCommerce, Brick and Mortar stores, BI etc) positioning business to make real time adjustments to match competitors and improve store operation efficiency"
     ]
+
   },
   {
     "id": 3,
-    "experiencePeriod": "August 2021 - November 2021",
-    "experienceTitle": "Early Childhood Assistant - Intern",
-    "experienceLocation": "Small Wunders, Mississauga",
+    "experiencePeriod": "December 2009 - April 2011",
+    "experienceTitle": "Associate - Projects",
+    "experienceLocation": "Cognizant Technology Solutions:- Chennai, India",
     "highlights": [
-      "Maintained a safe and healthy learning environment that promoted the positive development of children.",
-      "Provided developmentally appropriate curriculum that promoted the physical and intellectual growth of children.",
-      "Assisted in providing positive guidance that supported the social and emotional development of children."
+      "Senior Mainframe developer reponsible for redesign of various mainframe based applications to consolidate the technology stack and move to a common database management system.",
+      "Creating a detailed technical design specification based on functional and non-functional requirements using data and process modelling techniques."
     ]
+
+  },
+  {
+    "id": 4,
+    "experiencePeriod": "September 2006 - December 2009",
+    "experienceTitle": "Senior Software Engineer",
+    "experienceLocation": "Infosys Technologies Ltd",
+    "highlights": [
+      "Creating the business case and assessing desirability of the solution, by performing a cost benefit analysis",
+      "Delivering elements of systems design, including data migration rules, business rules, wireframes, or other detailed deliverables"
+    ]
+
   }
 ]

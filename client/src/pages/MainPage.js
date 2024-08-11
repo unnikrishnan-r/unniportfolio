@@ -8,8 +8,6 @@ import SectionTitle from "../components/SectionTitle";
 import AboutMe from "../components/AboutMe";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
-import Certification from "../components/Certification"
-
 
 class MainPage extends Component {
   render() {
@@ -40,19 +38,10 @@ class MainPage extends Component {
 
         <div className="container-fluid col-md-9 col-11 px-0">
           <SectionTitle
-            sectionName="E D U C A T I O N"
+            sectionName="E D U C A T I O N & C E R T I F I C A T I O N S"
             fontColor="text-success"
           ></SectionTitle>
           <Education></Education>
-        </div>
-        <br />
-
-        <div className="container-fluid col-md-9 col-11 px-0">
-          <SectionTitle
-            sectionName="C E R T I F I C A T I O N S"
-            fontColor="text-info"
-          ></SectionTitle>
-          <Certification></Certification>
         </div>
         <br />
       </>

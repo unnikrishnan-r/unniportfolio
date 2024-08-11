@@ -25,21 +25,14 @@ export default class index extends Component {
         <div className="col-12 flex btn-aboutme py-3  education-field">
           <div>
             <span className="lead mx-2 mobile-edu-container">
-              Passionate and dedicated Early Childhood Educator with over two years of
-              experience in creating a nurturing and stimulating environment for
-              young learners. Committed to promoting holistic development and
-              providing a solid foundation for future success. Seeking to
-              contribute my skills and enthusiasm to a progressive educational
-              institution. <br></br> <br></br>
-              As a dedicated Early Childhood Educator, my mission is to create a
-              nurturing and inclusive environment where every child feels
-              valued, supported, and empowered to explore their unique
-              potential. I am committed to fostering a love of learning through
-              creative and developmentally appropriate practices, while
-              advocating for the safety, well-being, and holistic growth of each
-              child in my care. By partnering with families and communities, I
-              strive to lay a strong foundation for lifelong learning and
-              success.
+              Technical Project Manager with over 13 years of diverse global
+              experience as a Program Manager, Project manager, Business analyst, Full Stack Web
+              developer and Mainframe solution architect, paired with a strong
+              educational background and drive for continuous learning. Skilled
+              in working with virtual teams for end to end execution of
+              large-scale programs. Exude superb communication and
+              organizational skills, an asset to any organization. Strong,
+              trusted team player with excellent analytical skills.
             </span>
           </div>
           <div>
@@ -65,18 +58,34 @@ export default class index extends Component {
               fontSize: "1.1rem",
             }}
           >
-            <li>Currently performing Director approved ECE role</li>
-            <li>Diploma in Early Childcare Assistant, GPA 4.5</li>
             <li>
-              Experience in working in preschool and toddler childcare settings
+              <a href="https://bcert.me/bc/html/show-badge.html?b=hefndbsi">
+                Certified Scrum Master
+              </a>
             </li>
-            <li>Experience working in multicultural environments</li>
-            <li>Effective communicator - verbal, written, and electronic</li>
-            <li>Good team player with analytical and communication skills</li>
-            <li>Adaptive and agile to changing environment</li>
-            <li>Natural leader, problem solver, and excellent organizer</li>
             <li>
-              Computer Skills: Proficient in Microsoft Office suite of products
+              Currently executing a multi year, multi million dollar Digital
+              Modernization initiative, transforming legacy applications/data
+              out of Retailer's legacy platform and aiming to reduce TCO by $12
+              million
+            </li>
+            <li>
+              Designed and implemented a solution via EDI to provide visibility
+              of DSD purchase order fulfillment and out of stocks in Store
+              Replenishment System, reducing lost sales by $2.8 million annually
+            </li>
+            <li>
+              Manage an annual budget of $2.5 million in Legacy Development
+              Center portfolio; geographically dispersed team of 35 members
+            </li>
+            <li>Self upgraded technical skills as Full Stack Developer</li>
+            <li>
+              Core Competency in Mainframe Technologies, also well versed with
+              Integration technologies like TIBCO
+            </li>
+            <li>
+              Strong leadership and interpersonal skills. Effectively mentored
+              many team members
             </li>
           </ul>
         </div>

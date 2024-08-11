@@ -16,7 +16,7 @@ function App() {
           {" "}
           {/* To render a component depending on the URL exact path hit in the browser*/}
           <Route exact path="/" element={<MainPage />} />
-          <Route exact path="/activityplans" element={<ProjectsPage />} />
+          <Route exact path="/projects" element={<ProjectsPage />} />
         </Routes>{" "}
       </div>
     </Router>
